@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "KZRequestConfig.h"
 #import "KZMultipartFormData.h"
+#import <JsonModelTranfer/JsonModelTranfer.h>
 /**
  *  task完成的回调
  *

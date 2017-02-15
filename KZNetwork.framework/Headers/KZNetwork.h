@@ -17,8 +17,8 @@ FOUNDATION_EXPORT const unsigned char KZNetworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <KZNetwork/PublicHeader.h>
 #import <KZNetwork/KZRequestConfig.h>
 #import <KZNetwork/KZRequestService.h>
-
 #import <KZNetwork/KZNetPlatformManager.h>
-#import <KZNetwork/KZDataSource.h>
+#import <KZNetwork/KZMultipartFormData.h>
+#import <KZNetwork/KZDeviceInfo.h>
 
 
