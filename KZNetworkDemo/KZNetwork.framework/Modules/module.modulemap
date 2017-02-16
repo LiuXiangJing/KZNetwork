@@ -1,0 +1,6 @@
+framework module KZNetwork {
+  umbrella header "KZNetwork.h"
+
+  export *
+  module * { export * }
+}
