@@ -9,23 +9,21 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "KZNetwork"
-  s.version      = "1.0.0"
-  s.summary      = "课栈APP网络请求库"
+    s.name         = "KZNetwork"
+    s.version      = "1.0.0"
+    s.summary      = "课栈APP网络请求库"
 
-  s.homepage     = "https://github.com/LiuXiangJing/KZNetwork.git"
+    s.homepage     = "https://github.com/LiuXiangJing/KZNetwork.git"
 
+    s.license      = "MIT"
 
-  s.license      = "MIT"
+    s.author             = { "刘咕噜" => "lxj_tintin@126.com" }
 
-  s.author             = { "刘咕噜" => "lxj_tintin@126.com" }
+    s.platform     = :ios, "8.0"
+    s.source       = { :git => "https://github.com/LiuXiangJing/KZNetwork.git", :tag => "#{s.version}" }
 
-  s.platform     = :ios, "8.0"
-
-
-  s.source       = { :git => "https://github.com/LiuXiangJing/KZNetwork.git", :tag => "#{s.version}" }
-
-
+    s.source_files = '/JsonModelTranfer.framework/Headers/.h','/KZNetwork.framework/Headers/.h'
+    s.public_header_files = '/JsonModelTranfer.framework/Headers/.h','/KZNetwork.framework/Headers/.h'
     s.vendored_frameworks = 'JsonModelTranfer.framework','KZNetwork.framework'
 
     s.frameworks = "Foundation", "CoreData","UIKit"
