@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LiuXiangJing/KZNetwork.git", :tag => "#{s.version}" }
 
-
+    s.source_files  =  "Frameworks/**/*.framework"
 
     s.vendored_frameworks = 'JsonModelTranfer.framework','KZNetwork.framework'
 
