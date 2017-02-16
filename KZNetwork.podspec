@@ -27,7 +27,8 @@ Pod::Spec.new do |s|
 
 
 
-    s.vendored_frameworks = 'JsonModelTranfer.framework'
+    s.vendored_frameworks = 'JsonModelTranfer.framework','KZNetwork.framework'
+    s.ios.vendored_frameworks = 'Frameworks/JsonModelTranfer.framework'
 
     s.frameworks = "Foundation", "CoreData","UIKit"
 
