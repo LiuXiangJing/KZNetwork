@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/LiuXiangJing/KZNetwork.git", :tag => "#{s.version}" }
 
     s.vendored_frameworks = 'JsonModelTranfer.framework','KZNetwork.framework'
-    s.dependency = 'JsonModelTranfer'
+#s.dependency = 'JsonModelTranfer'
 
     s.frameworks = "Foundation", "CoreData","UIKit"
 
