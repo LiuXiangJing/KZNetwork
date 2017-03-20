@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "KZNetwork"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "课栈APP网络请求库"
 
     s.homepage     = "https://github.com/LiuXiangJing/KZNetwork.git"
